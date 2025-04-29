@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    font-family: Bahnschrift, sans-serif;
+    text-align: center;
+    margin-top: 50%;
+    margin-bottom: 50%;
+    background-color: #121111;
+}
+
+.musica {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+iframe {
+    border-radius: 12px;
+}
+
+.foto img{
+    margin: 20px;
+    border-radius: 12px;
+    height: 500px; 
+    width: 380px;
+}
+
+.mensagem{
+    margin: 10px;
+    padding: 10px;
+    color: #c7bfbf;
+}
+
+#contador {
+    font-size: 32px;
+    color: #c7bfbf;
+    margin: 15px;
+    padding: 10px;
+}
+
